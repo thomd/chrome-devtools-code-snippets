@@ -1,1 +1,1 @@
-# chrome-devtools-code-snippets
+# Code Snippets for Chrome Developer Tools
