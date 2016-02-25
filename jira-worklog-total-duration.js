@@ -25,6 +25,6 @@ function toMinutes(value) {
 
 [].forEach.call(document.querySelectorAll('.worklog-duration'), sumDurations)
 
-console.log('SUM: %d minutes', sum)
-console.log('SUM: %d hours, %d minutes', Math.floor(sum / 60), sum % 60) 
-console.log('SUM: %d days, %d hours, %d minutes', Math.floor(Math.floor(sum / 60) / 8), Math.floor(sum / 60) % 8, sum % 60) 
+console.log('%c SUM: %d minutes', 'color: green', sum)
+console.log('%c SUM: %d hours, %d minutes', 'color: green', Math.floor(sum / 60), sum % 60)
+console.log('%c SUM: %d days, %d hours, %d minutes', 'color: green', Math.floor(Math.floor(sum / 60) / 8), Math.floor(sum / 60) % 8, sum % 60)
