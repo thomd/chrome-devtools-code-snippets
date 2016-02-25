@@ -27,4 +27,4 @@ function toMinutes(value) {
 
 console.log('%c SUM: %d minutes', 'color: green', sum)
 console.log('%c SUM: %d hours, %d minutes', 'color: green', Math.floor(sum / 60), sum % 60)
-console.log('%c SUM: %d days, %d hours, %d minutes', 'color: green', Math.floor(Math.floor(sum / 60) / 8), Math.floor(sum / 60) % 8, sum % 60)
+console.log('%c SUM: %d man days, %d hours, %d minutes', 'color: green', Math.floor(Math.floor(sum / 60) / 8), Math.floor(sum / 60) % 8, sum % 60)
